@@ -86,6 +86,7 @@ function adicionarDespesaInterface(nomeDespesa, valorDespesa) {
 
     img.src = '/assets/img/trash.svg';
     img.alt = 'Icone lixeira';
+    img.style.cursor = 'pointer';
 
     img.addEventListener('click', removerDespesa);
 
